@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 import laravel from 'laravel-vite-plugin';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [
@@ -8,6 +8,13 @@ export default defineConfig({
             input: ['resources/js/app.tsx', 'resources/css/app.css'],
             refresh: true,
         }),
-        react(), // Plugin React
+        react(),
     ],
+    build: {
+        outDir: 'public/build',
+        assetsDir: 'assets',
+    },
+    server: {
+        origin: 'https://ecupadel.nexosdelecuador.com/public',
+    },
 });
