@@ -1,0 +1,168 @@
+[15-Jan-2025 14:07:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:07:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:07:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:07:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:08:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:09:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:10:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:11:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:13:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:13:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:14:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
+[15-Jan-2025 14:16:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Configuration\Middleware::route() in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php:14
+Stack trace:
+#0 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(281): {closure}()
+#1 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1417): Illuminate\Foundation\Configuration\ApplicationBuilder->Illuminate\Foundation\Configuration\{closure}()
+#2 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1353): Illuminate\Container\Container->fireCallbackArray()
+#3 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(1339): Illuminate\Container\Container->fireAfterResolvingCallbacks()
+#4 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(837): Illuminate\Container\Container->fireResolvingCallbacks()
+#5 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1051): Illuminate\Container\Container->resolve()
+#6 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Container/Container.php(755): Illuminate\Foundation\Application->resolve()
+#7 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1033): Illuminate\Container\Container->make()
+#8 /home/nexosdel/ecupadel.nexosdelecuador.com/public/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1191): Illuminate\Foundation\Application->make()
+#9 /home/nexosdel/ecupadel.nexosdelecuador.com/public/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 {main}
+  thrown in /home/nexosdel/ecupadel.nexosdelecuador.com/public/bootstrap/app.php on line 14
