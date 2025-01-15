@@ -11,12 +11,13 @@
 </head>
 <body class="bg-black text-white font-montserrat">
 
-    <!-- Encabezado -->
-    <header class="bg-black border-b-4 border-yellow-400 shadow-md py-4">
-        <div class="container mx-auto flex justify-center">
-            <img src="{{ asset('storage/images/logo.jpg') }}" alt="ECUPÁDEL CLUB Logo" class="h-32 w-auto">
-        </div>
-    </header>
+   <!-- Encabezado -->
+<header class="bg-black border-b-4 border-yellow-400 shadow-md py-4">
+    <div class="container mx-auto flex justify-center">
+        <img src="{{ asset('images/logo.jpg') }}" alt="ECUPÁDEL CLUB Logo" class="h-32 w-auto">
+    </div>
+</header>
+
 
     <!-- Contenido principal -->
     <main class="container mx-auto px-4 py-12 text-center">
